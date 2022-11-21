@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="3.0.png" />
+    <None Remove="back.jpg" />
+    <None Remove="book bg.jpg" />
+    <None Remove="close.ico" />
+    <None Remove="coming soon 2.0.webp" />
+    <None Remove="coming soon.webp" />
+    <None Remove="home.jpg" />
+    <None Remove="idBACK.jpg" />
+    <None Remove="Poe bg.jpg" />
+    <None Remove="question.bg.jpg" />
+    <None Remove="question2.bg.jpg" />
+    <None Remove="question3.bg.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM" Version="8.2.1" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="3.0.png" />
+    <Resource Include="back.jpg" />
+    <Resource Include="book bg.jpg" />
+    <Resource Include="close.ico" />
+    <Resource Include="coming soon 2.0.webp" />
+    <Resource Include="coming soon.webp" />
+    <Resource Include="home.jpg" />
+    <Resource Include="idBACK.jpg" />
+    <Resource Include="Poe bg.jpg" />
+    <Resource Include="question.bg.jpg" />
+    <Resource Include="question2.bg.jpg" />
+    <Resource Include="question3.bg.jpg" />
+  </ItemGroup>
+
+</Project>
